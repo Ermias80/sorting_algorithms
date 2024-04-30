@@ -44,9 +44,3 @@ void insertion_sort_list(listint_t **list)
 				continue;
 			}
 		}
-		if (!flag)
-			tmp = tmp->next;
-		else
-			tmp = aux, flag = false;
-	}
-}
